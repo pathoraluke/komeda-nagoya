@@ -91,7 +91,7 @@
         pickable: true,
         getPosition: d => [d.lon, d.lat],
         getElevation: d => d.count * 2000,
-        getFillColor: [205, 33, 63, 200],
+        getFillColor: [205, 133, 63, 200],
         elevationScale: 0 // 初期は高さ0
       });
 
@@ -113,7 +113,7 @@
           pickable: true,
           getPosition: d => [d.lon, d.lat],
           getElevation: d => d.count * 2000,
-          getFillColor: [205, 33, 63, 200],
+          getFillColor: [205, 133, 63, 200],
           elevationScale: 1, // 最終高さに
           transitions: {
             elevationScale: {
@@ -138,7 +138,7 @@
             pickable: true,
             getPosition: d => [d.lon, d.lat],
             getElevation: d => d.count * 2000,
-            getFillColor: [205, 33, 63, 200],
+            getFillColor: [205, 133, 63, 200],
             elevationScale: 0 // 高さを0に戻す
           });
           deckOverlay.setProps({
